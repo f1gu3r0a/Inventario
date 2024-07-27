@@ -9,5 +9,3 @@ Route::get('/', function () {
 
 // Rutas para el CRUD de productos
 Route::resource('products', ProductController::class);
-
-Route::resource('products', ProductController::class);
